@@ -21954,5 +21954,12 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.sect1 {
+  background-image: url(../../../public/images/bg-header-desktop.png);
+  background-size: cover;
+  padding: 25vh;
+  display: flex;
+  justify-content: center;
+}
 
 /*# sourceMappingURL=app.css.map */
