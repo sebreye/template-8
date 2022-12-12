@@ -22035,7 +22035,34 @@ h4, .h4 {
 .img-sect4 {
   display: flex;
   justify-content: center;
-  padding: 5vh;
+  padding: 10vh;
+}
+
+.sect5 {
+  padding: 10vh;
+}
+
+.para-sect5 {
+  text-align: center;
+}
+
+h3, .h3 {
+  color: rgb(198, 196, 196);
+}
+
+h5, .h5 {
+  color: rgb(198, 196, 196);
+}
+
+.cards-sect5 {
+  display: flex;
+  justify-content: space-around;
+  padding: 10vh;
+}
+
+.cards {
+  text-align: center;
+  width: 50vh;
 }
 
 /*# sourceMappingURL=app.css.map */
