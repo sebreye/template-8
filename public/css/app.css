@@ -22057,12 +22057,96 @@ h5, .h5 {
 .cards-sect5 {
   display: flex;
   justify-content: space-around;
-  padding: 10vh;
+  padding: 15vh;
 }
 
 .cards {
   text-align: center;
+  margin: 3vh;
   width: 50vh;
+}
+
+.sect6 {
+  padding: 15vh;
+}
+
+.logo-sect6 {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.sect7 {
+  padding: 10vh;
+}
+
+.para-sect7 {
+  text-align: center;
+}
+
+h4, .h4 {
+  color: rgb(186, 185, 185);
+}
+
+.btn-sect7 {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-sect7 input {
+  margin: 15px;
+}
+
+.btn-ios {
+  background-color: rgb(3, 252, 202);
+  height: 40px;
+  width: 160px;
+  border: none;
+  border-radius: 30px;
+  font-size: large;
+}
+
+.btn-mac {
+  background-color: rgb(3, 177, 252);
+  height: 40px;
+  width: 160px;
+  border: none;
+  border-radius: 30px;
+  font-size: large;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(189, 187, 187);
+  padding: 7vh;
+}
+
+.logo-footer {
+  height: 20px;
+  width: 20px;
+  padding-bottom: 10vh;
+}
+
+.menu-footer {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-left: 10vh;
+}
+
+.menu-footer li {
+  margin: 1vw;
+}
+
+.réseaux-footer {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.réseaux-footer li {
+  margin: 1vw;
 }
 
 /*# sourceMappingURL=app.css.map */

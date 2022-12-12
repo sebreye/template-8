@@ -1,0 +1,32 @@
+.sect7{
+    padding: 10vh;  
+}
+.para-sect7{
+    text-align: center;
+}
+h4{
+    color: rgb(186, 185, 185);
+}
+.btn-sect7{
+display: flex;
+justify-content: center;
+}
+.btn-sect7 input{
+    margin: 15px;
+}
+.btn-ios{
+    background-color: rgb(3, 252, 202);
+    height: 40px;
+    width: 160px;
+    border: none;
+    border-radius: 30px;
+    font-size: large;
+}
+.btn-mac{
+    background-color: rgb(3, 177, 252);
+    height: 40px;
+    width: 160px;
+    border: none;
+    border-radius: 30px;
+    font-size: large;
+}
