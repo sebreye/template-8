@@ -26,3 +26,37 @@ footer{
 .réseaux-footer li{
     margin: 1vw;
 }
+@media only screen and (max-width:376px ){
+    footer{
+        display: flex;
+        justify-content: space-around;
+        background-color: rgb(189, 187, 187);
+        padding: 7vh;
+        flex-direction: column;
+        align-items: center;
+        padding-right: 23vw;
+    }
+    .img-footer{
+        width: 50px;
+        height: 50px;
+    }
+    .menu-footer{
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        margin-left: 0;
+        flex-direction: column;
+        text-align: center;
+    }
+    .menu-footer li{
+        margin: 1vw;
+    }
+    .réseaux-footer{
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+    }
+    .réseaux-footer li{
+        margin: 1vw;
+    }
+}

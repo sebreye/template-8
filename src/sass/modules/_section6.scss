@@ -6,3 +6,25 @@
     justify-content: space-between;
     list-style: none;
 }
+.logo-sect6 li{
+    margin: 2vh;
+}
+@media only screen and (max-width:376px ){
+    .sect6{
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .logo-sect6{
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        flex-wrap: wrap;
+        list-style: none;
+    }
+    .img-sect6{
+        width: 200px;
+    }
+}

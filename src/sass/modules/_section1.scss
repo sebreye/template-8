@@ -1,7 +1,21 @@
+body{
+    margin: 0;
+}
+
 .sect1{
     background-image: url(../../../public/images/bg-header-desktop.png);
     background-size: cover;
     padding: 25vh;
     display: flex;
     justify-content: center;
+}
+// mediaqueries
+@media only screen and (max-width:376px ){
+    .sect1{
+        background-image: url(../../../public/images/bg-header-mobile.png);
+    background-size: cover;
+    padding: 5vh;
+    display: flex;
+    justify-content: center;
+    }
 }

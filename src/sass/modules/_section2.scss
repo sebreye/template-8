@@ -30,3 +30,18 @@ justify-content: center;
     border-radius: 30px;
     font-size: large;
 }
+@media only screen and (max-width:376px ){
+    .sect2{
+        padding: 0;  
+        padding-bottom: 5vh;
+    }
+    .para-sect2{
+        text-align: center;
+    }
+    .btn-sect2{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
+    }
+}

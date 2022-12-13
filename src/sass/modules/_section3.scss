@@ -16,3 +16,29 @@ h4{
 .mini-para{
     padding: 3vh;
 }
+@media only screen and (max-width:376px ){
+    .sect3{
+        padding: 0;
+        }
+        .para-sect3{
+            text-align: center;
+            padding: 0 ;
+            padding-bottom: 5vh;
+        }
+        h4{
+            color: rgb(186, 185, 185);
+        }
+        .img-sect3{
+            width: 50%;
+            margin-left: 9vh;
+        }
+        .mini-para-sect3{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .mini-para{
+            padding: 3vh;
+            text-align: center;
+        }
+}
